@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="本地" uuid="3a1304df-40f9-4bd3-9bba-79de5c4d9ee6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>本地环境</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/airflow</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="唯因特 追溯项目" uuid="f8992602-d7b0-45db-b694-cc534edbe1c8">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>唯因特 追溯项目 测试自然语言至SQL</remarks>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://192.168.26.201:8123/mts</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mdc@clickhouse" uuid="dafa9ee5-d88f-4468-b5e8-a82ef12c0887">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://clickhouse:8123/mdc</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@192.168.25.34" uuid="c87eec9a-fec3-4641-81ed-9cd27c3e3abe">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.25.34:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="WIT@192.168.25.34@33060" uuid="5afe217a-e34a-4fc6-8c06-2f8d0b3e7d46">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.25.34:33060/airflow</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

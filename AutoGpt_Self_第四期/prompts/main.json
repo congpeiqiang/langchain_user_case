@@ -1,0 +1,18 @@
+{
+  "_type": "prompt",
+  "input_variables": [
+    "instruction",
+    "task_description",
+    "constraints",
+    "task_description",
+    "work_dir",
+    "tools",
+    "resources",
+    "performance_evaluation",
+    "long_term_memory",
+    "short_term_memory",
+    "thought_instructions",
+    "format_instructions"
+  ],
+  "template_path": "main.txt"
+}
