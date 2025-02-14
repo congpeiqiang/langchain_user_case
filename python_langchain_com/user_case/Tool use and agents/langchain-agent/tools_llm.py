@@ -32,11 +32,9 @@ from langchain_core.messages import HumanMessage
 tools = [search, retriever_tool]
 model_with_tools = model.bind_tools(tools)
 
-
 response = model_with_tools.invoke([HumanMessage(content="你好")])
 print(f"ContentString: {response.content}")
 print(f"ToolCalls: {response.tool_calls}")
-
 
 print("------------------------------------------------------------------------------")
 
